@@ -3,8 +3,8 @@ name: "Genshin Impact Helper"
 on:
   push:
   schedule:
-    - cron: '0/5 * * * *'  # scheduled at 00:01 (UTC+8) everyday
-  workflow_dispatch:
+    - cron: '0/5 * * * *'
+ 
 
 env:
   RUN_ENV: 'prod'
